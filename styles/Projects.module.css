@@ -1,0 +1,40 @@
+.single_project_box {
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 0 0 0 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #fafafa;
+  position: relative;
+  overflow: hidden;
+}
+.single_project_box .project_hover_content {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 25px 50px;
+  background-color: #fafafa;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+}
+.single_project_box .project_hover_content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.single_project_box:hover {
+  box-shadow: 0 0 40px 3px rgb(0 0 0 / 5%);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  background-color: #fff;
+}
+.single_project_box:hover .project_hover_content {
+  background-color: #fff;
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}

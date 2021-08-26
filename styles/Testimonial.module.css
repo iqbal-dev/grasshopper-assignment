@@ -1,0 +1,28 @@
+.testimonial_single_item {
+  text-align: center;
+  background-color: #f6f5fb;
+  padding: 30px 20px;
+  position: relative;
+  margin-top: 78px;
+  border-radius: 10px;
+  position: relative;
+  width: 400px;
+}
+.testimonial_single_item .testimonial_image {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 125px;
+  width: 120px;
+  border-top: 5px solid #f20791;
+  border-radius: 50%;
+}
+.testimonial_single_item .testimonial_image .img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.slick-slide {
+  margin: 0 10px;
+}

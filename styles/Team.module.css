@@ -1,0 +1,27 @@
+.team_social {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.team_social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.team_social li .icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  line-height: 30px;
+  background-color: #fff;
+  border: 1px solid #f272bc;
+  border-radius: 50px;
+  color: #f272bc;
+  font-size: 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.team_social li .icon:hover {
+  background-color: #f272bc;
+  color: #fff;
+}

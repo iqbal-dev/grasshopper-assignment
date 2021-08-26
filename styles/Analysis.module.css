@@ -1,0 +1,11 @@
+.form input {
+  height: 55px;
+  box-shadow: unset;
+  border: none;
+  border-bottom: 1px solid #dbdbdc;
+  border-radius: unset;
+  padding: 0 0 14px;
+  font-size: 14px;
+  color: #9a9b9f;
+  font-weight: 400;
+}

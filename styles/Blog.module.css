@@ -1,0 +1,28 @@
+.image {
+  position: relative;
+}
+.date {
+  height: 60px;
+  width: 80px;
+  top: 52%;
+  right: 10px;
+  background-color: #f20791;
+  position: absolute;
+}
+.card_container:hover .title {
+  color: #f20791;
+  background-color: #fff;
+}
+.card_container button {
+  border: none;
+  background: #f20791;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.card_container:hover button {
+  color: #f20791;
+  background-color: #fff;
+  border: 1px solid #f20791;
+}
