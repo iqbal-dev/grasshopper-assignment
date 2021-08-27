@@ -4,9 +4,7 @@
 }
 .single_blog_item {
   background-color: #fff;
-  /* border: 1px solid #e8e8e8; */
   border-top: none;
-  padding: 30px;
   position: relative;
   margin-bottom: 30px;
 }
