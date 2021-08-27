@@ -35,13 +35,11 @@ const Blog = () => {
             <div className={styles.image}>
               <Image alt="image not found" src={blog1} />
             </div>
-            <div
-              className={`${styles.date} d-flex justify-content-center align-items-center text-white`}
-            >
-              <div>
-                <span>02</span> <br />
-                <span>January</span>
-              </div>
+            <div className={styles.single_blog_item}>
+              <ul className={styles.date}>
+                <li>02</li>
+                <li>January</li>
+              </ul>
             </div>
             <Card.Body className="p-4 mt-3">
               <Row style={{ width: "300px" }}>
@@ -70,13 +68,11 @@ const Blog = () => {
             <div className={styles.image}>
               <Image alt="image not found" src={blog2} />
             </div>
-            <div
-              className={`${styles.date} d-flex justify-content-center align-items-center text-white`}
-            >
-              <div>
-                <span>02</span> <br />
-                <span>January</span>
-              </div>
+            <div className={styles.single_blog_item}>
+              <ul className={styles.date}>
+                <li>02</li>
+                <li>January</li>
+              </ul>
             </div>
             <Card.Body className="p-4 mt-3">
               <Row style={{ width: "300px" }}>
@@ -105,13 +101,11 @@ const Blog = () => {
             <div className={styles.image}>
               <Image alt="image not found" src={blog3} />
             </div>
-            <div
-              className={`${styles.date} d-flex justify-content-center align-items-center text-white`}
-            >
-              <div>
-                <span>02</span> <br />
-                <span>January</span>
-              </div>
+            <div className={styles.single_blog_item}>
+              <ul className={styles.date}>
+                <li>02</li>
+                <li>January</li>
+              </ul>
             </div>
             <Card.Body className="p-4 mt-3">
               <Row style={{ width: "300px" }}>

@@ -1,13 +1,28 @@
 .image {
+  max-width: 100%;
+  height: auto;
+}
+.single_blog_item {
+  background-color: #fff;
+  /* border: 1px solid #e8e8e8; */
+  border-top: none;
+  padding: 30px;
   position: relative;
+  margin-bottom: 30px;
 }
 .date {
-  height: 60px;
-  width: 80px;
-  top: 52%;
-  right: 10px;
-  background-color: #f20791;
   position: absolute;
+  top: -40px;
+  right: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #e4045e;
+  padding: 8px;
+}
+.date li {
+  list-style-type: none;
+  color: #fff;
+  font-size: 12px;
 }
 .card_container:hover .title {
   color: #f20791;

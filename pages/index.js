@@ -16,6 +16,7 @@ import Services from "./component/Services/Services";
 import Subscription from "./component/Subscription/Subscription";
 import Team from "./component/Team/Team";
 import Testimonial from "./component/Testimonial/Testimonial";
+
 export default function Home() {
   return (
     <div>
