@@ -1,3 +1,4 @@
+import { useWindowWidth } from "@react-hook/window-size";
 import Image from "next/image";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
@@ -8,14 +9,15 @@ import testimonial3 from "../../../public/testimonial3.jpg";
 import testimonial4 from "../../../public/testimonial4.jpg";
 import headerStyles from "../../../styles/Choose.module.css";
 import styles from "../../../styles/Testimonial.module.css";
-
 const Testimonial = () => {
+  const onlyWidth = useWindowWidth();
+  console.log(onlyWidth);
   const settings = {
     dots: true,
     infinite: true,
     speed: 4000,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: onlyWidth > 770 ? 2 : 1,
+    slidesToScroll: onlyWidth > 770 ? 2 : 1,
     autoplay: true,
   };
   return (

@@ -6,7 +6,7 @@
   margin-top: 78px;
   border-radius: 10px;
   position: relative;
-  width: 400px;
+  width: 90%;
 }
 .testimonial_single_item .testimonial_image {
   position: absolute;
@@ -25,4 +25,5 @@
 }
 .slick-slide {
   margin: 0 10px;
+  width: 100px;
 }
