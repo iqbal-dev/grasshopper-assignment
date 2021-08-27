@@ -17,7 +17,7 @@ const Projects = () => {
       <Row>
         <Col lg={4} sm={6}>
           <div className={styles.single_project_box}>
-            <Image src={image1} />
+            <Image alt="image not found" src={image1} />
             <div className={styles.project_hover_content}>
               <h4>Web Design</h4>
             </div>
@@ -25,7 +25,7 @@ const Projects = () => {
         </Col>
         <Col lg={4} sm={6}>
           <div className={styles.single_project_box}>
-            <Image src={image2} />
+            <Image alt="image not found" src={image2} />
             <div className={styles.project_hover_content}>
               <h4>Web Design</h4>
             </div>
@@ -33,7 +33,7 @@ const Projects = () => {
         </Col>
         <Col lg={4} sm={6}>
           <div className={styles.single_project_box}>
-            <Image src={image3} />
+            <Image alt="image not found" src={image3} />
             <div className={styles.project_hover_content}>
               <h4>Web Design</h4>
             </div>
@@ -41,7 +41,7 @@ const Projects = () => {
         </Col>
         <Col lg={4} sm={6}>
           <div className={styles.single_project_box}>
-            <Image src={image4} />
+            <Image alt="image not found" src={image4} />
             <div className={styles.project_hover_content}>
               <h4>Web Design</h4>
             </div>
@@ -49,7 +49,7 @@ const Projects = () => {
         </Col>
         <Col lg={4} sm={6}>
           <div className={styles.single_project_box}>
-            <Image src={image5} />
+            <Image alt="image not found" src={image5} />
             <div className={styles.project_hover_content}>
               <h4>Web Design</h4>
             </div>
@@ -57,7 +57,7 @@ const Projects = () => {
         </Col>
         <Col lg={4} sm={6}>
           <div className={styles.single_project_box}>
-            <Image src={image6} />
+            <Image alt="image not found" src={image6} />
             <div className={styles.project_hover_content}>
               <h4>Web Design</h4>
             </div>

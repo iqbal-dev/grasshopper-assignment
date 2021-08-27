@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Row className="align-items-center mb-5">
       <Col md={6}>
-        <Image className={styles.image} src={images} />
+        <Image alt="image not found" className={styles.image} src={images} />
       </Col>
       <Col md={6} className={styles.about_area_content}>
         <span>ABOUT US</span>

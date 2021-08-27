@@ -44,25 +44,25 @@ const Boosting = () => {
       <div className={styles.tab_content}>
         <Row>
           <Col lg={5}>
-            <Image src={images} />
+            <Image alt="image not found" src={images} />
           </Col>
           <Col lg={7}>
             <div className={styles.content}>
               <h2>REAL-TIME ANALYTICS</h2>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure there isn't anything embarrassing
-                hidden in the middle of text.
+                There are many variations of passages of Lorem Ipsum
+                available&lsquo but the majority have suffered alteration in
+                some form, by injected humour&lsquo or randomised words which
+                don&lsquot look even slightly believable. If you are going to
+                use a passage of Lorem Ipsum&lsquo you need to be sure there
+                isn&lsquot anything embarrassing hidden in the middle of text.
               </p>
               <Row className="align-items-center">
                 <Col md={6} className={styles.tab_text_content}>
                   <IoMdAnalytics className={styles.icon} />
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt.
+                    Lorem ipsum dolor sit amet&lsquo consectetur adipiscing
+                    elit&lsquo sed do eiusmod tempor incididunt.
                   </p>
                 </Col>
                 <Col md={6} className={styles.tab_text_content}>

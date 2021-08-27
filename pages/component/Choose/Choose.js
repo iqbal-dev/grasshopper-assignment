@@ -47,7 +47,7 @@ const Choose = () => {
           <button className="moreAbout">Discover more</button>
         </Col>
         <Col lg={6} md={12}>
-          <Image src={images} />
+          <Image alt="image not found" src={images} />
         </Col>
       </Row>
     </div>

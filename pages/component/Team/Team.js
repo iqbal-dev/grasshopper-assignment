@@ -23,7 +23,7 @@ const Team = () => {
       <Row>
         <Col lg={4} sm={6}>
           <Card>
-            <Image variant="top" src={member1} />
+            <Image alt="image not found" variant="top" src={member1} />
             <Card.Body style={{ textAlign: "center" }}>
               <Card.Title>Edward Bold</Card.Title>
               <Card.Text>CEO & Founder</Card.Text>
@@ -49,7 +49,7 @@ const Team = () => {
         </Col>
         <Col lg={4} sm={6}>
           <Card>
-            <Image variant="top" src={member2} />
+            <Image alt="image not found" variant="top" src={member2} />
             <Card.Body style={{ textAlign: "center" }}>
               <Card.Title>Calvin Klein</Card.Title>
               <Card.Text>Marketing Support</Card.Text>
@@ -75,7 +75,7 @@ const Team = () => {
         </Col>
         <Col lg={4} sm={6}>
           <Card>
-            <Image variant="top" src={member3} />
+            <Image alt="image not found" variant="top" src={member3} />
             <Card.Body style={{ textAlign: "center" }}>
               <Card.Title>Alastair Cook</Card.Title>
               <Card.Text>Underwriter</Card.Text>

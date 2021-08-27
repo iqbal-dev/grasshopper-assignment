@@ -16,7 +16,7 @@ const Testimonial = () => {
     speed: 4000,
     slidesToShow: 2,
     slidesToScroll: 2,
-    duration: 9000,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -64,7 +64,11 @@ const Testimonial = () => {
           <div>
             <div className={styles.testimonial_single_item}>
               <div className={styles.testimonial_image}>
-                <Image className={styles.img} src={testimonial1} />
+                <Image
+                  alt="image not found"
+                  className={styles.img}
+                  src={testimonial1}
+                />
               </div>
               <div>
                 <h3 className="mt-5">Edward Bold</h3>
@@ -81,7 +85,11 @@ const Testimonial = () => {
           <div>
             <div className={styles.testimonial_single_item}>
               <div className={styles.testimonial_image}>
-                <Image className={styles.img} src={testimonial2} />
+                <Image
+                  alt="image not found"
+                  className={styles.img}
+                  src={testimonial2}
+                />
               </div>
               <div>
                 <h3 className="mt-5">Edward Bold</h3>
@@ -98,7 +106,11 @@ const Testimonial = () => {
           <div>
             <div className={styles.testimonial_single_item}>
               <div className={styles.testimonial_image}>
-                <Image className={styles.img} src={testimonial3} />
+                <Image
+                  alt="image not found"
+                  className={styles.img}
+                  src={testimonial3}
+                />
               </div>
               <div>
                 <h3 className="mt-5">Edward Bold</h3>
@@ -115,7 +127,11 @@ const Testimonial = () => {
           <div>
             <div className={styles.testimonial_single_item}>
               <div className={styles.testimonial_image}>
-                <Image className={styles.img} src={testimonial4} />
+                <Image
+                  alt="image not found"
+                  className={styles.img}
+                  src={testimonial4}
+                />
               </div>
               <div>
                 <h3 className="mt-5">Edward Bold</h3>

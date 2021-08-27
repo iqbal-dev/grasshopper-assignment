@@ -31,7 +31,12 @@ const Banner = () => {
       </Col>
       <Col md={6}>
         <div>
-          <Image className="rounded" height={3000} src={bannerImage} />
+          <Image
+            alt="image not found"
+            className="rounded"
+            height={3000}
+            src={bannerImage}
+          />
         </div>
       </Col>
     </Row>

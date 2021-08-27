@@ -1,0 +1,12 @@
+.CopyRight {
+  background-color: #01082d;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #fff;
+}
+.CopyRight .right {
+  text-align: right;
+}
+.CopyRight p a:hover {
+  color: #f20791;
+}

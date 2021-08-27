@@ -1,3 +1,4 @@
+// import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "next/head";
 import "../styles/Home.module.css";
 import About from "./component/About/About";
@@ -6,10 +7,13 @@ import Banner from "./component/Banner/Banner";
 import Blog from "./component/Blog/Blog";
 import Boosting from "./component/Boosting/Boosting";
 import Choose from "./component/Choose/Choose";
+import CopyRight from "./component/CopyRight/CopyRight";
 import Features from "./component/Features/Features";
+import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";
 import Projects from "./component/Projects/Projects";
 import Services from "./component/Services/Services";
+import Subscription from "./component/Subscription/Subscription";
 import Team from "./component/Team/Team";
 import Testimonial from "./component/Testimonial/Testimonial";
 export default function Home() {
@@ -22,7 +26,6 @@ export default function Home() {
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"
         />
         <link
           rel="stylesheet"
@@ -35,16 +38,6 @@ export default function Home() {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <script
-          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-          integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-          crossorigin="anonymous"
-        ></script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-          integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-          crossorigin="anonymous"
-        ></script>
       </Head>
 
       <main>
@@ -86,9 +79,17 @@ export default function Home() {
           <Analysis />
           <Blog />
         </div>
+        <Subscription />
       </main>
 
-      <footer></footer>
+      <footer>
+        <div className="footer">
+          <div className="container">
+            <Footer />
+          </div>
+        </div>
+        <CopyRight />
+      </footer>
     </div>
   );
 }

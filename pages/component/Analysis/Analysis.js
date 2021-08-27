@@ -10,7 +10,7 @@ const Analysis = () => {
     <Row className="align-items-center" style={{ paddingTop: "70px" }}>
       <Col lg={6} md={12}>
         <div>
-          <Image src={images} />
+          <Image alt="image not found" src={images} />
         </div>
       </Col>
       <Col lg={6} md={12}>
@@ -28,6 +28,7 @@ const Analysis = () => {
               <input
                 type="text"
                 name="name"
+                required
                 className="form-control"
                 placeholder="Your Name *"
               />
@@ -44,6 +45,7 @@ const Analysis = () => {
               <input
                 type="number"
                 name="phone"
+                required
                 className="form-control"
                 placeholder="Phone *"
               />
