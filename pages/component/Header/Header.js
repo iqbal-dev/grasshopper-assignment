@@ -1,9 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import logo from "../../../public/logo.png";
 const Header = () => {
   const router = useRouter();
   return (
@@ -11,7 +9,7 @@ const Header = () => {
       <Navbar bg="white" expand="lg" className="mb-5">
         <Link href="/">
           <Navbar.Brand href="/">
-            <Image alt="image not found" src={logo} />
+            <h1>Reconnect</h1>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
